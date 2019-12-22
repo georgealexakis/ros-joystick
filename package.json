@@ -1,0 +1,31 @@
+{
+  "name": "ros-joystick",
+  "version": "4.0.0",
+  "description": "ROS Joystick is an Application for ROS.",
+  "main": "desktop.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "roslib": "^1.0.1",
+    "nipplejs": "^0.8.4",
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgealexakis/ros-joystick.git"
+  },
+  "keywords": [
+    "ROS",
+    "Joystick"
+  ],
+  "author": "George Alexakis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgealexakis/ros-joystick/issues"
+  },
+  "homepage": "https://github.com/georgealexakis/ros-joystick#readme"
+}
