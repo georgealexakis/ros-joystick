@@ -30,11 +30,11 @@ Copy the ip that rosbridge provides via websockects and then run index.html to s
 
 Or
 
-Use the Android Application in [/build] folder, that runs on Android Devices. You can also build the application for different devices.
+Use the Android Application in [/build](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid/build) folder, that runs on Android Devices. You can also build the application for different devices.
 
 Or
 
-Build the Application for different devices using Apache Cordova or Adode Phonegab the files in [/hybrid] folder.
+Build the Application for different devices using Apache Cordova or Adode Phonegab the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
 
 ## License
 
