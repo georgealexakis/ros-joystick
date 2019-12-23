@@ -48,9 +48,9 @@ Or
 
 * Build the Application for different devices using Apache Cordova or Adode Phonegab with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
 
-### Screenshots
+## Screenshots
 
-## Desktop Controller
+### Desktop Controller
 
 ![desktop1](screenshots/desktop1.png)
 
@@ -58,7 +58,7 @@ Or
 
 ![desktop3](screenshots/desktop3.png)
 
-## Smartphone Controller
+### Smartphone Controller
 
 ![smartphone1](screenshots/smartphone1.png)
 
