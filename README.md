@@ -10,6 +10,8 @@ ROS Joystick is a Hybrid Application, for remote controling and monitoring of a 
 
 [Screenshots](#screenshots)
 
+[Demo](#demo)
+
 [License](#license)
 
 ## Getting Started
@@ -66,7 +68,7 @@ Or
 
 ![smartphone3](screenshots/smartphone3.png)
 
-### Demo
+## Demo
 
 [ROS Joystick Demo.](https://1drv.ms/v/s!Amy4EDOPS0vXuCfv7OUddIGczeXt?e=wpxqIQ)
 
