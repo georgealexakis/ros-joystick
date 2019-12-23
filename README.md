@@ -4,13 +4,13 @@ ROS Joystick is a Hybrid Application, for remote controling and monitoring of a 
 
 ## Table of Contents
 
-[Getting Started](#Getting Started)
+[Getting Started](#getting-started)
 
-[Install Package](#Install Package)
+[Executing](#executing)
 
-[Screenshots](#Screenshots)
+[Screenshots](#screenshots)
 
-[License](#License)
+[License](#license)
 
 ## Getting Started
 
@@ -32,11 +32,11 @@ To connect ROS Joystick with ROS robot, it is necessary to install rosbridge. Ru
 
 ## Executing
 
-1. Connect to the same network with the ROS implemented robot. Run rosbridge with:
+Connect to the same network with the ROS implemented robot. Run rosbridge with:
 
 ``` $ roslaunch rosbridge_server rosbridge_websocket.launch ```
 
-2. Copy the IP that rosbridge package provides via websockects and then:
+Copy the IP that rosbridge package provides via websockects and then:
 
 * Run desktop.html to start the desktop web application to a web browser.
 
