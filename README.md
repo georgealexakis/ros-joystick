@@ -1,6 +1,16 @@
 # ROS Joystick
 
-ROS Joystick is a Hybrid Application, that enables the remote controling and monitoring of a robot that is running ROS. (This implementation has tested only with ROS Kinetic version) 
+ROS Joystick is a Hybrid Application, for remote controling and monitoring of a robot that runs ROS. (This implementation has tested only with ROS Kinetic version) 
+
+## Table of Contents
+
+[Getting Started](#Getting Started)
+
+[Install Package](#Install Package)
+
+[Screenshots](#Screenshots)
+
+[License](#License)
 
 ## Getting Started
 
@@ -8,33 +18,53 @@ ROS Joystick is a Hybrid Application, that enables the remote controling and mon
 
 Download repository code from:
 
-``` $ git clone https://github.com/georgealexakis/ros-joystick.git (master branch) ```
+``` https://github.com/georgealexakis/ros-joystick.git (master branch) ```
 
 Or get a copy of the source from:
 
 ``` $ git clone https://github.com/georgealexakis/ros-joystick.git (master branch) ```
 
-### Install Necessary Package
+### Install Package
 
-To connect ROS Joystick to ROS robot, it is necessary to install rosbridge. Run the command below:
+To connect ROS Joystick with ROS robot, it is necessary to install rosbridge. Run the command below:
 
 ``` $ sudo apt-get install ros-<version>-rosbridge-server ```
 
 ## Executing
 
-Connect to the same network with the ROS implemented robot. Run rosbridge with:
+1. Connect to the same network with the ROS implemented robot. Run rosbridge with:
 
 ``` $ roslaunch rosbridge_server rosbridge_websocket.launch ```
 
-Copy the ip that rosbridge provides via websockects and then run index.html to start the web application to web browser.
+2. Copy the IP that rosbridge package provides via websockects and then:
+
+* Run desktop.html to start the desktop web application to a web browser.
 
 Or
 
-Use the Android Application in [/build](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid/build) folder, that runs on Android Devices. You can also build the application for different devices.
+* Use the Android Application in [/build](https://github.com/georgealexakis/ros-joystick/tree/master/build) folder, that runs only on Android Devices.
 
 Or
 
-Build the Application for different devices using Apache Cordova or Adode Phonegab the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
+* Build the Application for different devices using Apache Cordova or Adode Phonegab with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
+
+### Screenshots
+
+## Desktop Controller
+
+![desktop1](screenshots/desktop1.png)
+
+![desktop2](screenshots/desktop2.png)
+
+![desktop3](screenshots/desktop3.png)
+
+## Smartphone Controller
+
+![smartphone1](screenshots/smartphone1.png)
+
+![smartphone2](screenshots/smartphone2.png)
+
+![smartphone3](screenshots/smartphone3.png)
 
 ## License
 
