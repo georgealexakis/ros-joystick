@@ -48,7 +48,7 @@ Or
 
 Or
 
-* Build the Application for different devices using Apache Cordova or Adode Phonegab with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
+* Build the Application for different devices using Apache Cordova, Adode Phonegab or Electron with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
 
 ## Screenshots
 
