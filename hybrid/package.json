@@ -1,0 +1,23 @@
+{
+  "name": "ros-joystick-hybrid",
+  "version": "4.0.0",
+  "description": "ROS Joystick Hybrid is an Application for ROS.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "nipplejs": "^0.8.3",
+    "popper.js": "^1.16.0",
+    "roslib": "^1.0.1",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ROS",
+    "Joystick"
+  ],
+  "author": "George Alexakis",
+  "license": "MIT"
+}
