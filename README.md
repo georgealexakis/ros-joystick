@@ -1,6 +1,6 @@
 # ROS Joystick
 
-ROS Joystick is a Hybrid Application, for remote controling and monitoring of a robot that runs ROS. (This implementation has tested only with ROS Kinetic version) 
+ROS Joystick is a Hybrid Application, for remote controling and monitoring of a robot that runs ROS. Also, it publishes and subscribes to different topics for sending goals, monitoring the robot status and the live view of the robot camera. (This implementation has tested only with ROS Kinetic version) 
 
 ## Table of Contents
 
