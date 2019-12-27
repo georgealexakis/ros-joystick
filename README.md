@@ -26,6 +26,12 @@ Or get a copy of the source from:
 
 ``` $ git clone https://github.com/georgealexakis/ros-joystick.git (master branch) ```
 
+Normally, you have to run:
+
+``` npm install ```
+
+to install dependencies, but I have already included to all projects.
+
 ### Install Package
 
 To connect ROS Joystick with ROS robot, it is necessary to install rosbridge. Run the command below:
@@ -48,7 +54,7 @@ Or
 
 Or
 
-* Build the Application for different devices using Apache Cordova, Adode Phonegab or Electron with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder.
+* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications).
 
 ## Screenshots
 
