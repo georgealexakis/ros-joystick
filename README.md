@@ -54,7 +54,7 @@ Or
 
 Or
 
-* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron [(desktop applications, download the prebuild version for win-x32, win-x64)](https://1drv.ms/u/s!Amy4EDOPS0vX0k0P5e78r-Kaw89Q?e=91mkWS). 
+* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications, [download the prebuild version for win-x32, win-x64](https://1drv.ms/u/s!Amy4EDOPS0vX0k0P5e78r-Kaw89Q?e=91mkWS)). 
 
 ## Screenshots
 
