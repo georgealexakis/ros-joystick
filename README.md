@@ -1,6 +1,6 @@
 # ROS Joystick
 
-ROS Joystick is a Hybrid Application, for remote controling and monitoring of a robot that runs ROS. Also, it publishes and subscribes to different topics for sending goals, monitoring the robot status and the live view of the robot camera. (This implementation has tested only with ROS Kinetic version) 
+ROS Joystick is a Hybrid Application, for remote controlling and monitoring of a robot that runs ROS. Also, it publishes and subscribes to different topics for sending goals, monitoring the robot status and the live view of the robot camera. (This implementation has tested only with ROS Kinetic version) 
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Normally, you have to run:
 
 ``` npm install ```
 
-to install dependencies, but I have already included to all projects.
+to install dependencies, but I have already included them in all projects.
 
 ### Install Package
 
@@ -44,13 +44,13 @@ Connect to the same network with the ROS implemented robot. Run rosbridge with:
 
 ``` $ roslaunch rosbridge_server rosbridge_websocket.launch ```
 
-Copy the IP that rosbridge package provides via websockects and then:
+Copy the IP that rosbridge package provides via WebSockets and then:
 
 * Run desktop.html to start the desktop web application to a web browser.
 
 Or
 
-* Use the Android Application in [/build](https://github.com/georgealexakis/ros-joystick/tree/master/build) folder, that runs only on Android Devices.
+* Use the Android Application in [/build](https://github.com/georgealexakis/ros-joystick/tree/master/build) folder, which runs only on Android Devices.
 
 Or
 
