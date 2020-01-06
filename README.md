@@ -6,7 +6,7 @@ ROS Joystick is a Hybrid Application, for remote controlling and monitoring of a
 
 [Getting Started](#getting-started)
 
-[Executing](#executing)
+[Execution](#execution)
 
 [Screenshots](#screenshots)
 
@@ -38,7 +38,7 @@ To connect ROS Joystick with ROS robot, it is necessary to install rosbridge. Ru
 
 ``` $ sudo apt-get install ros-<version>-rosbridge-server ```
 
-## Executing
+## Execution
 
 Connect to the same network with the ROS implemented robot. Run rosbridge with:
 
