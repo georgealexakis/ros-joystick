@@ -26,11 +26,11 @@ Or get a copy of the source from:
 
 ``` $ git clone https://github.com/georgealexakis/ros-joystick.git (master branch) ```
 
-Normally, you have to run:
+Run:
 
 ``` npm install ```
 
-to install dependencies, but I have already included them in all projects.
+to install dependencies.
 
 ### Install Package
 
