@@ -54,7 +54,14 @@ Or
 
 Or
 
-* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX0k0P5e78r-Kaw89Q?e=91mkWS)). 
+* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX0k0P5e78r-Kaw89Q?e=91mkWS)).
+
+Put the computer IP and press connect. When everything is ready the terminal will show the message "Client connected. 1 client total." as is presented below:
+
+<p align="center">
+    <img src="/screenshots/smartphone1.png" width="45%" title="Connection Tab" />
+    <img src="/screenshots/terminal.png" width="45%" title="Terminal" />
+</p>
 
 ## Screenshots
 
