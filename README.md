@@ -57,6 +57,7 @@ Or
 * Build the Hybrid Applications for different devices using Apache Cordova for mobile devices. Rename /docs folder to /www folder before build. Use the template for a cordova application, as presented in this repository 
 [https://github.com/apache/cordova-app-hello-world](https://github.com/apache/cordova-app-hello-world).
 * Build the Hybrid Applications for Windows, Linux, etc, by using Electron.
+* For android in API 28 and above, you have to set android:usesCleartextTraffic="true" in your manifest in the application tag.
 
 Put the computer IP and press connect. When everything is ready the terminal will show the message "Client connected. 1 client total." as is presented below:
 
