@@ -28,7 +28,7 @@ Or get a copy of the source from:
 
 Run:
 
-``` npm install ```
+``` $ npm install ```
 
 to install dependencies.
 
