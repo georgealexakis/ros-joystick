@@ -56,7 +56,7 @@ Or
 
 * Build the Hybrid Applications for different devices using Apache Cordova for mobile devices. Rename /docs folder to /www folder before build. Use the template for a cordova application, as presented in this repository 
 [https://github.com/apache/cordova-app-hello-world](https://github.com/apache/cordova-app-hello-world).
-* Build the Hybrid Applications for Windows by using Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX2RVVjxyZUtRpEQcI?e=pflxv6)).
+* Build the Hybrid Applications for Windows, Linux, etc, by using Electron.
 
 Put the computer IP and press connect. When everything is ready the terminal will show the message "Client connected. 1 client total." as is presented below:
 
