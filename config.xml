@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.rosapp.joystick" version="4.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ROS Joystick</name>
+    <description>
+        ROS Joystick is an Application for ROS
+    </description>
+    <author email="geosalexs@gmail.com" href="https://github.com/georgealexakis">
+        George Alexakis
+    </author>
+    <content src="index.html" />
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="www/img/icon.png" />
+        <splash src="www/img/icon.png" />
+    </platform>
+
+    <preference name="Fullscreen" value="true" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="Orientation" value="landscape" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>

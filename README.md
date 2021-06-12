@@ -54,7 +54,7 @@ Or
 
 Or
 
-* Build the Hybrid Applications for different devices using Apache Cordova (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX2RVVjxyZUtRpEQcI?e=pflxv6)).
+* Build the Hybrid Applications for different devices using Apache Cordova (mobile devices) with the files in [/www](https://github.com/georgealexakis/ros-joystick/tree/master/www) folder or use Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX2RVVjxyZUtRpEQcI?e=pflxv6)).
 
 Put the computer IP and press connect. When everything is ready the terminal will show the message "Client connected. 1 client total." as is presented below:
 
