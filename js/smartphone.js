@@ -52,14 +52,14 @@ var joystickR = nipplejs.create({
     lockX: true
 });
 // Set on Start, on Move and on End functionalities for Left Joystick
-self.joystickL.on('start', function (event, nipple) {
+self.joystickL.on('start', function (_event, _nipple) {
     // Enable a function that runs continuously and send Twist messages
     timer = setInterval(function () {
         if (connectStatus)
             moveRobot(linearSpeed, angularSpeed);
     }, 25);  // Send every 25 milliseconds every message
 });
-self.joystickL.on('move', function (event, nipple) {
+self.joystickL.on('move', function (_event, nipple) {
     linearSpeed = Math.sin(nipple.angle.radian) * maxLinear * nipple.distance / maxDistance;
 });
 self.joystickL.on('end', function () {
@@ -72,14 +72,14 @@ self.joystickL.on('end', function () {
         moveRobot(linearSpeed, angularSpeed);
 });
 // Set on Start, on Move and on End functionalities for Right Joystick
-self.joystickR.on('start', function (event, nipple) {
+self.joystickR.on('start', function (_event, _nipple) {
     // Enable a function that runs continuously and send Twist messages
     timer = setInterval(function () {
         if (connectStatus)
             moveRobot(linearSpeed, angularSpeed);
     }, 25);  // Send every 25 milliseconds every message
 });
-self.joystickR.on('move', function (event, nipple) {
+self.joystickR.on('move', function (_event, nipple) {
     angularSpeed = -Math.cos(nipple.angle.radian) * maxAngular * nipple.distance / maxDistance;
 });
 self.joystickR.on('end', function () {
