@@ -1,6 +1,6 @@
 # ROS Joystick
 
-ROS Joystick is a Hybrid Application, for remote controlling and monitoring of a robot that runs ROS. Also, it publishes and subscribes to different topics for sending goals, monitoring the robot status and the live view of the robot camera. (This implementation has tested only with ROS Kinetic version). 
+ROS Joystick is a Hybrid Application, for remote controlling and monitoring of a robot that runs ROS. Also, it publishes and subscribes to different topics for sending goals, monitoring the robot status and the live view of the robot camera. (This implementation has tested with ROS Kinetic and ROS Melodic versions). 
 
 ## Table of Contents
 
@@ -54,7 +54,7 @@ Or
 
 Or
 
-* Build the Hybrid Applications for different devices using Apache Cordova, Adode Phonegab (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX0k0P5e78r-Kaw89Q?e=91mkWS)).
+* Build the Hybrid Applications for different devices using Apache Cordova (mobile devices) with the files in [/hybrid](https://github.com/georgealexakis/ros-joystick/tree/master/hybrid) folder or use Electron (desktop applications, [download the prebuild version for win32-x64](https://1drv.ms/u/s!Amy4EDOPS0vX2RVVjxyZUtRpEQcI?e=pflxv6)).
 
 Put the computer IP and press connect. When everything is ready the terminal will show the message "Client connected. 1 client total." as is presented below:
 
