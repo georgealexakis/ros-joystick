@@ -1,0 +1,55 @@
+{
+  "_args": [
+    [
+      "pngparse@2.0.1",
+      "C:\\Users\\George\\Documents\\GitHub\\ros-joystick\\hybrid"
+    ]
+  ],
+  "_from": "pngparse@2.0.1",
+  "_id": "pngparse@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-hoUt5N40n077HoUudSVlXlrF37g=",
+  "_location": "/pngparse",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pngparse@2.0.1",
+    "name": "pngparse",
+    "escapedName": "pngparse",
+    "rawSpec": "2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "2.0.1"
+  },
+  "_requiredBy": [
+    "/roslib"
+  ],
+  "_resolved": "https://registry.npmjs.org/pngparse/-/pngparse-2.0.1.tgz",
+  "_spec": "2.0.1",
+  "_where": "C:\\Users\\George\\Documents\\GitHub\\ros-joystick\\hybrid",
+  "author": {
+    "name": "The Dark Sky Company",
+    "email": "devsupport@darkskyapp.com"
+  },
+  "bugs": {
+    "url": "https://github.com/darkskyapp/pngparse/issues"
+  },
+  "dependencies": {},
+  "description": "convert PNG images to pixel arrays without dependencies",
+  "devDependencies": {
+    "chai": "1.6.x",
+    "mocha": "1.10.x"
+  },
+  "homepage": "https://github.com/darkskyapp/pngparse#readme",
+  "keywords": [
+    "png",
+    "image"
+  ],
+  "main": "./index",
+  "name": "pngparse",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darkskyapp/pngparse.git"
+  },
+  "version": "2.0.1"
+}
